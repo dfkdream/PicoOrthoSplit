@@ -1,0 +1,3 @@
+add_subdirectory(capture_hid)
+add_subdirectory(hid_to_cdc)
+add_subdirectory(key_test)

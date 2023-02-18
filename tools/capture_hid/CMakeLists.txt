@@ -1,0 +1,4 @@
+add_executable(capture_hid_report capture_hid_report.c)
+pico_enable_stdio_usb(capture_hid_report 1)
+target_link_libraries(capture_hid_report pico_stdlib pico_multicore pico_pio_usb)
+pico_add_extra_outputs(capture_hid_report)
